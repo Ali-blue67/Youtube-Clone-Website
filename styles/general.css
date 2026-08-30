@@ -1,0 +1,31 @@
+
+p {
+    font-family: Roboto;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding-top: 80px;
+    padding-left: 101px;
+    height: 2000px;
+
+    background-color: rgb(13, 13, 13);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.sidebar-item.active {
+    background-color: rgba(70, 70, 70, 0.254);
+    border-radius: 20px;
+}
+
+.sidebar-item {
+    cursor: pointer;
+}
